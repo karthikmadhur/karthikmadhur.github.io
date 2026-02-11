@@ -1,0 +1,59 @@
+:root {
+    --bg-color: #f4f7f6;
+    --text-color: #333;
+    --accent-color: #2a9d8f;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul { display: flex; list-style: none; }
+nav ul li { margin-left: 20px; }
+nav a { text-decoration: none; color: var(--text-color); font-weight: bold; }
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #264653, #2a9d8f);
+    color: white;
+}
+
+section { padding: 50px 10%; }
+
+.skills-grid span {
+    display: inline-block;
+    background: #e76f51;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
